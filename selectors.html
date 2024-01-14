@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Element Selector */
+        h1 {
+            background-color: blue;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* ID Selector */
+        #unique-element {
+            font-weight: bold;
+        }
+
+        /* Descendant Selector */
+        article p {
+            font-style: italic;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 1px solid green;
+        }
+
+        /* Pseudo-class Selector */
+        a:hover {
+            color: red;
+        }
+
+        /* Pseudo-element Selector */
+        p::first-line {
+            font-weight: bold;
+        }
+    </style>
+    <title>Selector Mastery</title>
+</head>
+<body>
+
+    <h1>Selector Mastery</h1>
+
+    <div class="highlight">This is a highlighted div.</div>
+
+    <div id="unique-element">This is a unique element with an ID.</div>
+
+    <article>
+        <p>This paragraph is inside an article.</p>
+    </article>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <a href="#">Hover over me</a>
+
+    <p>This is a paragraph with a <span>span</span> inside.</p>
+
+</body>
+</html>
